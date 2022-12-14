@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form for Yoga Classess</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+<center>
+    
+                <form action="/sign_up" method="POST">
+                    
+                    <h2>Admission Form for Yoga Classess</h2>
+                   Name: <input type="text" class="box" id="name" name="name" placeholder="Name" required />
+                    <hr>
+                   Age: <input type="number" class="box" id="age" name="age" placeholder="Age" min="18" max="65" required />
+                    <hr>
+                   Batch:<select id="batch" name="batch">
+                    <option value="6AM-7AM">6AM-7AM</option>
+                    <option value="7AM-8AM">7AM-8AM</option>
+                    <option value="8AM-9AM">8AM-9AM</option>
+                    <option value="5PM-6PM">5PM-6PM</option>
+
+                   </select>
+                    <hr>
+                    <input type="submit" value="Pay Fee 500" id="submit" />
+                </form>
+</center>
+</body>
+
+</html>
